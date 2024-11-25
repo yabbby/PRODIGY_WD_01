@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Menu with Navbar</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#about">About</a>
+        <a href="#blog">Blog</a>
+        <a href="#contactus">Contact Us</a>
+    </nav>
+
+    <div class="menu">
+        <div class="menu-item" onclick="showDescription('Explore')">Explore</div>
+        <div class="menu-item" onclick="showDescription('Shop')">Shop</div>
+        <div class="menu-item" onclick="showDescription('Cart')">Add to cart</div>
+    </div>
+    <div class="description">
+        <p id="item1" class="hidden">Description for Item 1</p>
+        <p id="item2" class="hidden">Description for Item 2</p>
+        <p id="item3" class="hidden">Description for Item 3</p>
+    </div>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>This is the Project that shows the Interactive of navigation menu.</p>
+    </section>
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>This is the Blog section.</p>
+    </section>
+    <section id="contactus">
+        <h2>Contact Us</h2>
+        <p>This is the Contact Us section.</p>
+    </section>
+
+    <script src="/JavaScript/script.js"></script>
+</body>
+</html>
